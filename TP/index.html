@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hardventas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/computadora.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/general.css">
+</head>
+
+<body>
+    <header><a href="index.html" id="inicio">Inicio</a>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Busca tu nuevo producto." aria-label="Search">
+            <button class="btn btn-secondary my-2 my-sm-0" type="submit">Buscar</button>
+        </form>        
+        <a href="registro.html">Registrarse</a>
+        <a href="login.html">Iniciar Seción</a>
+        <span id="out"> <a href="checkout.html">Carrito</a></span>
+        <img src="./img/icons8-shopping-cart-80-1.png" height="45px" id="check" alt="">
+    </header>
+    <main>
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/nvidiagamegift_p-transformed.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>RTX+Call of Duty</h5>
+                        <p>Comprando tarjetas Nvidia RTX3080 o RTX 3090 consigue una copia de Call of Duty Black Ops Cold War.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://www.noticias3d.com/imagenes/noticias/202311/AMD_avatar_bundle.jpg"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Oferta AMD y Avatar Frontiers of Pandora </h5>
+                        <p>Comprando productos seleccionados marca AMD obten una copia de Avatar Frontiers of Pandora.
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://elchapuzasinformatico.com/wp-content/uploads/2023/08/Intel-Gamer-Days-Assassins-Creed-Mirage-gratis.jpg"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Intel Gamer Days</h5>
+                        <p>Obten Nightingale y Assasins Creed Mirage comprando procesadores Intel.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <p id="Desta">Productos Destacados</p>
+        <table>
+            <tr>
+                <td>
+                    <div><img
+                            src="https://static6.depositphotos.com/1008244/611/v/450/depositphotos_6112952-stock-illustration-realistic-white-webcam.jpg"
+                            alt="Webcam blanca Istra">
+                    </div>
+                    Webcam blanca Istra
+                </td>
+                <td>
+                    <div><img
+                            src="https://tecnologia-facil.com/wp-content/uploads/2015/12/como-comprar-microfono-2.jpg.webp"
+                            alt="Microfono Darrow">
+                    </div>
+                    Microfono Darrow
+                </td>
+                <td>
+                    <div><img
+                            src="https://www.innovartech.com.ar/storage/2021/06/Joystick-Wireless-Redragon-G808-HARROW--600x600.jpg"
+                            alt="Joystick Redragon  Harrow G808 ">
+                    </div>
+                    Joystick Redragon Inalambrico <br> Harrow G808
+                </td>
+                <td>
+                    <div><img
+                            src="https://www.infoexpertmarica.com.br/wp-content/uploads/2020/06/Teclado-Gamer-Multilaser-Com-Hotkeys-Multimidia-Slim-Preto-Verde-TC243.jpg"
+                            alt="Teclado Gamer TC243">
+                    </div>
+                    Teclado Gamer TC243
+                </td>
+                <td>
+                    <div><img
+                            src="https://asset.msi.com/resize/image/global/product/product_4_20170412101542_58ed8dcea672d.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png"
+                            alt="Radeon RX 580 GAMING 8G ">
+                    </div>
+                    MSI Radeon RX 580 GAMING 8G
+                </td>
+                <td>
+                    <div><img src="https://shop.clarioncomputers.in/wp-content/uploads/2023/01/13400.png" alt=Intel Core
+                            I5-13400 13th Gen">
+                    </div>
+                    Intel Core I5-13400 13th Gen
+                </td>
+                <td>
+                    <div><img
+                            src="https://gaminglab.com.mx/wp-content/uploads/2021/08/microfono-gamer-para-streaming-y-generacion-de-contenido-hyperx-quadcast-s-con-rgb-000-vista-frontal.jpg"
+                            alt="Microfono 2">
+                    </div>
+                    Item3
+                </td>
+                <td>
+                    <div><img src="https://quietpc.es/images/products/asus-rtx2060s-o8g-evo-gaming-box.jpg"
+                            alt="Microfono 3">
+                    </div>
+                    ASUS GeForce RTX 2060 SUPER <br> EVO ROG STRIX OC Edition 8GB
+                </td>
+                <td>
+                    <div>
+                        <img src="https://gratistudo.com/wp-content/uploads/2020/10/Para-que-servem-os-teclados-e-quais-sao-os-tipos.jpg"
+                            alt="">
+                    </div>
+                    <span>Teclado Mecánico Gamer T-Dagger</span>
+                </td>
+            </tr>
+        </table>
+    </main>
+    <footer>© Hardventas Todos los derechos reservados 2024</footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
