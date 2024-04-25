@@ -1,0 +1,53 @@
+body {
+    background-color: whitesmoke;
+}
+
+table {
+    margin-left: 1%;
+}
+
+#carouselExampleCaptions img {
+    height: 700px !important;
+
+}
+
+#Desta {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+td {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    font-size: small;
+}
+
+tr {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+td div {
+    height: 220px;
+    width: 220px;
+}
+
+td img {
+    width: 100%;
+    height: 100%;
+}
+
+.dropdown-menu {
+    border: #198754;
+    margin-left: -15px;
+
+}
+
+.dropdown-menu a {
+    text-align: justify !important;
+    padding-right: 0px !important;
+}
