@@ -11,19 +11,29 @@ header{
     height: 100%;
     display: flex;
 }
-footer{
+/* footer{
     background-color: green;
     text-align: center;
     color: white;
-    margin-top: 3%;
+    height: 60%;
+    margin-top: 20px;
+} */
+
+.footer {
+    background-color:#198754;
+    color: #ffffff;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-header a{
-    color: white;
+/* header a{
+    color: red;
     font-size: larger;
     text-decoration: none;
     margin-right: 1%;
     text-align: end;
-}
+} */
 #inicio{
     text-align: start;
     margin-left:8px;
@@ -36,10 +46,11 @@ body{
     height: 100%;
     margin: 10px auto auto auto;
    }
+
 header form{
     width: 40%;
     display: flex;
-height: 2%
+    height: 2%
 }
  header button{
     margin-left: 5px;
