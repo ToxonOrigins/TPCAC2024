@@ -21,6 +21,6 @@ body {
 }
 @media (height< 1080px){
     main{
-    min-height: 830px;
+    min-height: 824px;
 }
 } 
